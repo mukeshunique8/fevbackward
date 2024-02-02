@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Jost:ital,wght@0,100;0,400;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Sign Up </h1>
+
+  <form action="register.php" method="post" enctype="multipart/form-data">
+    <input type="text" name="tutorname" placeholder="Tutor Name" required>
+    <input type="text" name="pseudoname" placeholder="Pseudoname" required>
+    <input type="text" name="employeeID" placeholder="EmployeeID" required>
+    <input type="text" name="mailID" placeholder="Mail ID" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="file" name="profile_image" accept="image/*">
+    <button type="submit">Register</button>
+</form>
+
+  
+</body>
+</html>
